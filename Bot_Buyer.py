@@ -23,8 +23,8 @@ except:
 
     time.sleep(1)
 
-    e_val = "harrybonoco@icloud.com"
-    p_val = "Bonoco02@"
+    e_val = "Email"
+    p_val = "Password@"
 
     driver.find_element(By.ID, "fld-e").send_keys(e_val)
     driver.find_element(By.ID, "fld-p1").send_keys(p_val)
